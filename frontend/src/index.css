@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Acharya-normal";
+  src: url("Fonts/all-book.woff2") format("woff2"),
+    url("Fonts/all-book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Acharya-semi";
+  src: url("Fonts/all-demi.woff2") format("woff2"),
+    url("Fonts/all-demi.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Acharya-bold";
+  src: url("Fonts/all-heavy.woff2") format("woff2"),
+    url("Fonts/all-heavy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CSS reset */
+
+:root {
+  --bg-color: #1a202c;
+  --white: white;
+  --card-bg: #272a31;
+  --card-text: rgb(182, 179, 179);
+  --black-text: black;
+  --green-color: #219c21;
+  --primary-color: #4f46e5;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Acharya-normal", sans-serif !important;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+  object-fit: cover;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+abbr,
+acronym {
+  border: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a {
+  color: var(--bg-color);
+  text-decoration: none;
+}
+
+/* Utilities Class */
+.pointer {
+  cursor: pointer;
+}
+.text-center {
+  text-align: center;
+}
+.full-width {
+  width: 100%;
+}
+.mt-10 {
+  margin-top: 0.625rem;
+}
+.mb-10 {
+  margin-bottom: 0.625rem;
+}
+.m-10 {
+  margin: 0.625rem 0;
+}
+.mt-20 {
+  margin-top: 1.25rem;
+}
+.inherit-font {
+  font-family: inherit;
+}
+.align-center {
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-last {
+  justify-content: flex-end;
+}
+.gap10 {
+  gap: 10px;
+}
+.border-bottom {
+  border-bottom: 1px solid var(--white);
+}
+.pb-10 {
+  padding-bottom: 0.625rem;
+}
+
+.active {
+  background: var(--primary-color);
+  font-weight: bold;
+  color: var(--white);
+}
+
+/* Components which is not possible by tailwind */
+.snackbars {
+  background: rgb(33, 184, 33);
+  width: 25rem;
+  color: var(--white);
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0.8rem;
+  border-radius: 0.315rem;
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 2;
+  display: flex;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 0.625rem;
+}
+
+.category-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.category-box i {
+  font-size: 2.8rem;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* Write min max media query */
+@media (min-width: 1277px) and (max-width: 1430px) {
+  .classgrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

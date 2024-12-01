@@ -1,0 +1,87 @@
+nav {
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 7%;
+  border-bottom: 1px red !important;
+}
+.mobile-menu {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  font-family: "Acharya-bold";
+  font-size: 2.4rem;
+}
+.mobile-nav-container {
+  position: fixed;
+  z-index: 9999999;
+  top: 79px;
+  width: 100vw;
+  padding: 4rem 2rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  background: var(--bg-color);
+  height: 100%;
+}
+.mobile-nav {
+  justify-content: flex-end;
+  background: transparent;
+}
+
+.hamburger {
+  width: 5rem;
+  cursor: pointer;
+  position: absolute;
+  right: 0.5rem;
+  top: -11px;
+}
+
+.desktop-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0px 50px; */
+  align-items: center;
+}
+
+.navitems {
+  display: flex;
+  /* gap: 30px; */
+  align-items: center;
+}
+
+.navitems a {
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navitems p,
+.mobnavitems a {
+  cursor: pointer;
+}
+.mobile-nav-items a {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.mobnavitems {
+  display: flex;
+  flex-direction: column;
+}
+.mobnavitems a {
+  margin: 15px 0px;
+  flex-direction: column;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.mobnavitems p {
+  margin-top: 0.625rem;
+}

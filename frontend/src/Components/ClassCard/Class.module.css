@@ -1,0 +1,76 @@
+.class {
+  background: #1f284c;
+  height: 250px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px 0px;
+  position: relative;
+  cursor: pointer;
+  position: relative;
+}
+
+.class:hover {
+  background: #101733;
+}
+
+@keyframes mymove {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 0px;
+  }
+}
+.first {
+  height: 50px;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.first p {
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0px 5px;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 65%;
+  color: #fff;
+}
+
+.second > h2 {
+  font-size: 30px;
+}
+
+.third {
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+.third p {
+  color: #fff;
+}
+.second h1 {
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+@media (max-width: 767px) {
+  .new {
+    width: 100%;
+  }
+  .class {
+    width: 100%;
+  }
+}

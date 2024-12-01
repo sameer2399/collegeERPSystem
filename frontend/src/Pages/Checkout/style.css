@@ -1,0 +1,1383 @@
+.widget-1.widget-check .add-check-area a i::after,
+.widget-1.widget-check .add-check-area a i::before,
+.widget-1.widget-check .form-group label::before,
+.side-shape::after,
+.side-shape::before,
+.newslater-container::after,
+.search-tab .tab-area::before,
+.movie-details .summery-review .tab-menu li::after,
+.movie-details .summery-review .tab-menu li::before,
+.screen-area .subtitle::after,
+.screen-area .subtitle::before,
+.checkout-widget .payment-option li.active a::after,
+.checkout-widget .payment-option li.active a::before,
+.checkout-widget.checkout-card
+  .payment-card-form
+  .form-group.check-group
+  label::after,
+.checkout-widget.checkout-card
+  .payment-card-form
+  .form-group.check-group
+  label::before,
+.event-about-thumb::after,
+.event-about-thumb::before,
+.statistics-section::after,
+.ticket--item .ticket-content ul li::before,
+.apps-wrapper .apps-bg,
+.counter--area .counter-item::after,
+.counter--area .counter-item::before,
+.account-area .account-form .form-group.checkgroup input::after,
+.account-area .or span::after,
+.account-area .or span::before,
+.contact-container .bg-thumb,
+.post-item.post-details .post-content .content .post-header blockquote::before {
+  position: absolute;
+  content: "";
+}
+
+.section-header-1,
+.section-header-2,
+.section-header-2 .tab-menu,
+.footer-top,
+.footer-bottom-area,
+.footer-bottom .links,
+.social-icons,
+.header-wrapper,
+.details-banner-content .social-and-duration,
+.details-banner-content .social-and-duration .duration-area,
+.details-banner-content .social-share,
+.book-wrapper,
+.book-wrapper .left-side,
+.book-wrapper .left-side .item .item-header,
+.book-wrapper .left-side .item .item-header .thumb,
+.widget-1.widget-facility ul li a,
+.widget-1 .widget-header,
+.widget-1.widget-check .form-group,
+.widget-1.widget-tags ul,
+.booking-summery ul li .subtitle,
+.booking-summery ul li .info,
+.proceed-area .subtitle,
+.widget-tags ul,
+.widget-categories ul li a,
+.widget-post .widget-slider .item .content .meta-post,
+.widget-post .slider-nav,
+.movie-rating-percent,
+.movie-rating-percent li,
+.movie-rating-percent li .thumb,
+.movie-list,
+.movie-list .movie-content .movie-tags,
+.movie-list .movie-content .book-area .book-ticket,
+.movie-list .movie-content .book-area .book-ticket .react-item .thumb,
+.movie-list .movie-content .book-area .book-ticket .react-item,
+.movie-list .movie-content .book-area .book-ticket .react-item a,
+.ticket-tab-menu,
+.ticket-search-form,
+.ticket-search-form .form-group,
+.filter-main,
+.filter-main .left,
+.filter-main .left .item,
+.grid-button,
+.movie-details .summery-review .tab-menu,
+.movie-details .item .header,
+.movie-details .item .header .navigation,
+.movie-review-item,
+.movie-review-item .author,
+.seat-plan-wrapper li,
+.seat-plan-wrapper li .movie-name,
+.seat-plan-wrapper li .movie-schedule,
+.window-warning,
+.seat-area .seat-line,
+.seat-area .seat-line ul,
+.proceed-to-book,
+.page-title-area,
+.page-title-area .date-item,
+.grid--area .filter,
+.grid--area .grid-area,
+.grid--area .grid-item .grid-inner .grid-thumb .offer-tag,
+.grid--area .grid-item .grid-inner .grid-thumb .offer-remainder,
+.checkout-widget .payment-option,
+.checkout-widget .payment-option li a,
+.checkout-widget.checkout-card .payment-card-form,
+.checkout-widget.checkout-card .payment-card-form .form-group.check-group,
+.checkout-contact-form,
+.sponsor-tab .tab-menu,
+.sponsor-slider .sponsor-thumb,
+.stat-item,
+.countdown,
+.event-search-top,
+.event-search-top .right,
+.event-search-bottom,
+.event-search-bottom .contact-side,
+.event-search-bottom .contact-side .item,
+.ticket--area .ticket-item .hot,
+.event-cart,
+.ticket--item .hot,
+.speaker-wrapper,
+.speak-con-area,
+.speak-con-area .item,
+.phisophy-list li,
+.phisophy-list li .thumb,
+.client-section .owl-dots,
+.tour-content .list-tour li,
+.tour-content .list-tour li .thumb,
+.about-counter,
+.about-counter .counter-item .counter-content,
+.app-button,
+.counter--area,
+.account-area .account-form .form-group.checkgroup,
+.section-404,
+.contact-counter-item .contact-counter-content .counter-item,
+.contact-info,
+.contact-info .info-area,
+.contact-info .info-area .info-item,
+.post-item .post-content .post-header .meta-post,
+.post-item .post-content .entry-content,
+.post-item .post-content .entry-content .left,
+.post-item .post-content .entry-content .left .authors,
+.post-item.post-details .post-content,
+.post-item.post-details .post-content .content .tags-area,
+.post-item.post-details .post-content .content .tags-area .tags,
+.blog-author,
+.comment-area li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.padding-top {
+  padding-top: 80px;
+}
+
+.padding-bottom {
+  padding-bottom: 80px;
+}
+
+@media (min-width: 992px) {
+  .padding-top {
+    padding-top: 120px;
+  }
+  .padding-bottom {
+    padding-bottom: 120px;
+  }
+}
+
+/*Booking Summery*/
+.booking-summery {
+  padding: 30px;
+  border: 1px solid #fff;
+  border-bottom-style: dashed;
+  padding-bottom: 10px;
+  margin-top: 60px;
+}
+
+.booking-summery .title {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.booking-summery .title {
+  text-align: center;
+  border-bottom: 1px dashed #fff;
+  padding-bottom: 23px;
+  margin-bottom: 35px;
+}
+
+.booking-summery ul {
+  border-bottom: 1px dashed #fff;
+}
+
+.booking-summery ul li {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.booking-summery ul li:first-child {
+  margin-top: 30px;
+}
+
+.booking-summery ul li .subtitle {
+  text-transform: uppercase;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.booking-summery ul li .subtitle:last-child {
+  margin-bottom: -5px !important;
+}
+
+.booking-summery ul li .info {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #9aace5;
+}
+
+.booking-summery ul li .info:last-child {
+  margin-bottom: -14px;
+}
+
+.booking-summery ul:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 576px) {
+  .booking-summery .title {
+    font-size: 28px;
+    margin-top: -9px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .booking-summery {
+    margin-top: 0;
+  }
+}
+
+.proceed-area {
+  background: #05245c;
+  padding: 30px;
+}
+
+.proceed-area .subtitle {
+  text-transform: uppercase;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 23px;
+}
+
+.side-shape {
+  position: relative;
+}
+
+.side-shape::after,
+.side-shape::before {
+  width: 48px;
+  height: 48px;
+  /* background-color: #fff; */
+  border-radius: 50%;
+  top: -48px;
+}
+
+.side-shape::after {
+  left: -56px;
+}
+
+.side-shape::before {
+  right: -56px;
+}
+
+/*Movie-Checkout Section Starts Here*/
+.checkout-widget {
+  padding: 30px;
+  margin-bottom: 30px;
+  background: #032055;
+}
+.bg-one {
+  background: #032055;
+}
+
+.checkout-widget .title-area,
+.checkout-widget .sign-in-area {
+  width: 100%;
+}
+
+.checkout-widget .title-area {
+  margin-bottom: 25px;
+}
+
+.checkout-widget .title-area .title {
+  margin-bottom: 20px;
+}
+
+.checkout-widget p {
+  color: #9aace5;
+}
+
+.checkout-widget .sign-in-area {
+  color: #ffffff;
+}
+
+.checkout-widget .sign-in-area i {
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  background: -webkit-linear-gradient(169deg, #5560ff 0%, #ff4343 100%);
+  border-radius: 50%;
+  font-size: 14px;
+  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  .checkout-widget .title-area {
+    width: calc(100% - 100px);
+    margin-bottom: 0;
+  }
+  .checkout-widget .title-area .title {
+    margin-bottom: 23px;
+  }
+  .checkout-widget .sign-in-area {
+    width: 100px;
+  }
+}
+
+.checkout-widget.checkout-contact .title {
+  border-bottom: 1px dashed #fff;
+  padding-bottom: 23px;
+  margin-bottom: 20px;
+}
+
+.checkout-personal {
+  padding-bottom: 4rem;
+}
+
+.checkout-widget .payment-option {
+  margin: -15px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 576px) {
+  .checkout-widget .payment-option {
+    margin-bottom: 40px;
+  }
+}
+
+.checkout-widget .payment-option li {
+  padding: 15px;
+}
+
+.checkout-widget .payment-option li a {
+  width: 90px;
+  border-radius: 10px;
+  border: 1px solid #11326f;
+  text-align: center;
+  padding: 20px 10px 18px;
+  height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.checkout-widget .payment-option li a img {
+  max-width: 100%;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+.checkout-widget .payment-option li a span {
+  font-size: 12px;
+  text-transform: capitalize;
+  display: block;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.checkout-widget .payment-option li.active a {
+  border-color: #4441e7;
+  border-width: 2px;
+  position: relative;
+}
+
+.checkout-widget .payment-option li.active a::after {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: -15px;
+  right: -15px;
+  /* background: url(./img/check.png) no-repeat center center; */
+  background-size: cover;
+}
+
+.checkout-widget .payment-option li.active a::before {
+  background-color: #032055;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: -20px;
+  right: -20px;
+}
+
+.checkout-widget.checkout-card .subtitle {
+  margin-bottom: 14px;
+}
+
+@media (min-width: 576px) {
+  .checkout-widget.checkout-card .subtitle {
+    margin-bottom: 24px;
+  }
+}
+
+.checkout-widget.checkout-card .payment-card-form {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: -14px;
+}
+
+.checkout-widget.checkout-card .payment-card-form .form-group {
+  position: relative;
+  margin-bottom: 14px;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .checkout-widget.checkout-card .payment-card-form .form-group {
+    width: calc(50% - 15px);
+  }
+}
+
+.checkout-widget.checkout-card .payment-card-form .form-group input {
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #11326f;
+}
+
+.checkout-widget.checkout-card
+  .payment-card-form
+  .form-group
+  input::placeholder {
+  color: #9aace5;
+}
+
+.checkout-widget.checkout-card
+  .payment-card-form
+  .form-group
+  input[type="submit"] {
+  height: 50px;
+  width: auto;
+  padding: 0 30px;
+  border-radius: 25px;
+  font-weight: 600;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  border: none;
+}
+
+.checkout-widget.checkout-card .payment-card-form .form-group .right-icon {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  line-height: 60px;
+  font-size: 24px;
+  color: #11326f;
+}
+
+.checkout-widget.checkout-card .payment-card-form .form-group.check-group {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.checkout-widget.checkout-card
+  .payment-card-form
+  .form-group.check-group
+  input {
+  width: 30px;
+  height: 30px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.checkout-widget.checkout-card
+  .payment-card-form
+  .form-group.check-group
+  input:checked
+  ~ label::after {
+  display: block;
+}
+
+.checkout-widget.checkout-card
+  .payment-card-form
+  .form-group.check-group
+  label {
+  width: calc(100% - 30px);
+  padding-left: 20px;
+  margin: 0;
+}
+
+.checkout-widget.checkout-card
+  .payment-card-form
+  .form-group.check-group
+  label::after {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 7px;
+  left: 0;
+  /* background: url(./img/check.png) no-repeat center center; */
+  background-size: cover;
+  display: none;
+}
+
+.checkout-widget.checkout-card
+  .payment-card-form
+  .form-group.check-group
+  label::before {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 12px;
+  left: 5px;
+  border: 2px solid #4441e7;
+}
+
+.checkout-widget.checkout-card
+  .payment-card-form
+  .form-group.check-group
+  label
+  .title {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.checkout-widget.checkout-card
+  .payment-card-form
+  .form-group.check-group
+  label
+  .info {
+  font-size: 14px;
+}
+
+@media (max-width: 575px) {
+  .checkout-widget.checkout-card .payment-card-form .form-group input {
+    height: 50px;
+  }
+  .checkout-widget.checkout-card .payment-card-form .form-group .right-icon {
+    height: 50px;
+    line-height: 50px;
+  }
+}
+
+.checkout-widget.checkout-card .notice {
+  margin-top: 18px;
+  font-size: 14px;
+  display: block;
+}
+
+.checkout-widget.checkout-card .notice a {
+  color: #7c84ff;
+}
+
+.checkout-contact-form {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: -30px;
+}
+
+.checkout-contact-form .form-group {
+  /* margin-bottom: 30px; */
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .checkout-contact-form .form-group {
+    width: calc(50% - 15px);
+  }
+}
+
+.checkout-contact-form .form-group input {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.checkout-contact-form .form-group input::-webkit-input-placeholder {
+  color: #9aace5;
+}
+
+.checkout-contact-form .form-group input:-ms-input-placeholder {
+  color: #9aace5;
+}
+
+.checkout-contact-form .form-group input::-ms-input-placeholder {
+  color: #9aace5;
+}
+
+.checkout-contact-form .form-group input::placeholder {
+  color: #9aace5;
+}
+
+.checkout-contact-form .form-group input[type="submit"] {
+  width: auto;
+  padding: 0 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+@media (max-width: 575px) {
+  .checkout-contact-form {
+    margin-bottom: -20px;
+  }
+  .checkout-contact-form .form-group {
+    margin-bottom: 20px;
+  }
+}
+
+/* Adding */
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
+  .col-md {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .col-md-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .col-md-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+
+  .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+
+  .col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+
+  .col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+
+  .col-md-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-md-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+
+  .col-md-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+
+  .col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .order-md-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .order-md-last {
+    -ms-flex-order: 13;
+    order: 13;
+  }
+
+  .order-md-0 {
+    -ms-flex-order: 0;
+    order: 0;
+  }
+
+  .order-md-1 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .order-md-2 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .order-md-3 {
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .order-md-4 {
+    -ms-flex-order: 4;
+    order: 4;
+  }
+
+  .order-md-5 {
+    -ms-flex-order: 5;
+    order: 5;
+  }
+
+  .order-md-6 {
+    -ms-flex-order: 6;
+    order: 6;
+  }
+
+  .order-md-7 {
+    -ms-flex-order: 7;
+    order: 7;
+  }
+
+  .order-md-8 {
+    -ms-flex-order: 8;
+    order: 8;
+  }
+
+  .order-md-9 {
+    -ms-flex-order: 9;
+    order: 9;
+  }
+
+  .order-md-10 {
+    -ms-flex-order: 10;
+    order: 10;
+  }
+
+  .order-md-11 {
+    -ms-flex-order: 11;
+    order: 11;
+  }
+
+  .order-md-12 {
+    -ms-flex-order: 12;
+    order: 12;
+  }
+
+  .offset-md-0 {
+    margin-left: 0;
+  }
+
+  .offset-md-1 {
+    margin-left: 8.333333%;
+  }
+
+  .offset-md-2 {
+    margin-left: 16.666667%;
+  }
+
+  .offset-md-3 {
+    margin-left: 25%;
+  }
+
+  .offset-md-4 {
+    margin-left: 33.333333%;
+  }
+
+  .offset-md-5 {
+    margin-left: 41.666667%;
+  }
+
+  .offset-md-6 {
+    margin-left: 50%;
+  }
+
+  .offset-md-7 {
+    margin-left: 58.333333%;
+  }
+
+  .offset-md-8 {
+    margin-left: 66.666667%;
+  }
+
+  .offset-md-9 {
+    margin-left: 75%;
+  }
+
+  .offset-md-10 {
+    margin-left: 83.333333%;
+  }
+
+  .offset-md-11 {
+    margin-left: 91.666667%;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .col-lg-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .col-lg-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+
+  .col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+
+  .col-lg-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-lg-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+
+  .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-lg-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+
+  .col-lg-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+
+  .col-lg-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-lg-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+
+  .col-lg-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+
+  .col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .order-lg-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .order-lg-last {
+    -ms-flex-order: 13;
+    order: 13;
+  }
+
+  .order-lg-0 {
+    -ms-flex-order: 0;
+    order: 0;
+  }
+
+  .order-lg-1 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .order-lg-2 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .order-lg-3 {
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .order-lg-4 {
+    -ms-flex-order: 4;
+    order: 4;
+  }
+
+  .order-lg-5 {
+    -ms-flex-order: 5;
+    order: 5;
+  }
+
+  .order-lg-6 {
+    -ms-flex-order: 6;
+    order: 6;
+  }
+
+  .order-lg-7 {
+    -ms-flex-order: 7;
+    order: 7;
+  }
+
+  .order-lg-8 {
+    -ms-flex-order: 8;
+    order: 8;
+  }
+
+  .order-lg-9 {
+    -ms-flex-order: 9;
+    order: 9;
+  }
+
+  .order-lg-10 {
+    -ms-flex-order: 10;
+    order: 10;
+  }
+
+  .order-lg-11 {
+    -ms-flex-order: 11;
+    order: 11;
+  }
+
+  .order-lg-12 {
+    -ms-flex-order: 12;
+    order: 12;
+  }
+
+  .offset-lg-0 {
+    margin-left: 0;
+  }
+
+  .offset-lg-1 {
+    margin-left: 8.333333%;
+  }
+
+  .offset-lg-2 {
+    margin-left: 16.666667%;
+  }
+
+  .offset-lg-3 {
+    margin-left: 25%;
+  }
+
+  .offset-lg-4 {
+    margin-left: 33.333333%;
+  }
+
+  .offset-lg-5 {
+    margin-left: 41.666667%;
+  }
+
+  .offset-lg-6 {
+    margin-left: 50%;
+  }
+
+  .offset-lg-7 {
+    margin-left: 58.333333%;
+  }
+
+  .offset-lg-8 {
+    margin-left: 66.666667%;
+  }
+
+  .offset-lg-9 {
+    margin-left: 75%;
+  }
+
+  .offset-lg-10 {
+    margin-left: 83.333333%;
+  }
+
+  .offset-lg-11 {
+    margin-left: 91.666667%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .col-xl-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .col-xl-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+
+  .col-xl-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+
+  .col-xl-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-xl-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-xl-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+
+  .col-xl-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-xl-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+
+  .col-xl-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+
+  .col-xl-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-xl-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+
+  .col-xl-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+
+  .col-xl-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .order-xl-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .order-xl-last {
+    -ms-flex-order: 13;
+    order: 13;
+  }
+
+  .order-xl-0 {
+    -ms-flex-order: 0;
+    order: 0;
+  }
+
+  .order-xl-1 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .order-xl-2 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .order-xl-3 {
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .order-xl-4 {
+    -ms-flex-order: 4;
+    order: 4;
+  }
+
+  .order-xl-5 {
+    -ms-flex-order: 5;
+    order: 5;
+  }
+
+  .order-xl-6 {
+    -ms-flex-order: 6;
+    order: 6;
+  }
+
+  .order-xl-7 {
+    -ms-flex-order: 7;
+    order: 7;
+  }
+
+  .order-xl-8 {
+    -ms-flex-order: 8;
+    order: 8;
+  }
+
+  .order-xl-9 {
+    -ms-flex-order: 9;
+    order: 9;
+  }
+
+  .order-xl-10 {
+    -ms-flex-order: 10;
+    order: 10;
+  }
+
+  .order-xl-11 {
+    -ms-flex-order: 11;
+    order: 11;
+  }
+
+  .order-xl-12 {
+    -ms-flex-order: 12;
+    order: 12;
+  }
+
+  .offset-xl-0 {
+    margin-left: 0;
+  }
+
+  .offset-xl-1 {
+    margin-left: 8.333333%;
+  }
+
+  .offset-xl-2 {
+    margin-left: 16.666667%;
+  }
+
+  .offset-xl-3 {
+    margin-left: 25%;
+  }
+
+  .offset-xl-4 {
+    margin-left: 33.333333%;
+  }
+
+  .offset-xl-5 {
+    margin-left: 41.666667%;
+  }
+
+  .offset-xl-6 {
+    margin-left: 50%;
+  }
+
+  .offset-xl-7 {
+    margin-left: 58.333333%;
+  }
+
+  .offset-xl-8 {
+    margin-left: 66.666667%;
+  }
+
+  .offset-xl-9 {
+    margin-left: 75%;
+  }
+
+  .offset-xl-10 {
+    margin-left: 83.333333%;
+  }
+
+  .offset-xl-11 {
+    margin-left: 91.666667%;
+  }
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}

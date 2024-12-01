@@ -1,0 +1,111 @@
+.progress {
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+}
+
+.progress div span {
+  color: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  /* z-index: 999; */
+  position: -webkit-sticky sticky;
+  margin-right: 5px;
+  overflow: hidden;
+}
+
+.progressvalue {
+  height: 25px;
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  /* background: #fff; */
+  content: "90%";
+  font-size: auto;
+  font-weight: 900;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  100% {
+    animation-delay: all 0.2s;
+  }
+}
+
+.attendence {
+  background: #1f284c;
+  height: 250px;
+  border-radius: 8px !important;
+  overflow: hidden;
+  margin: 10px 0px;
+  position: relative;
+  animation: mymove 3s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s ease-out;
+}
+
+.attendence:hover {
+  background: #101733 !important;
+}
+@keyframes mymove {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 0px;
+    /* background-color: blue; */
+  }
+}
+.first {
+  height: 50px;
+  width: auto;
+  /* background: rgb(49, 248, 49); */
+  /* align-items: center; */
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.first p {
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0px 5px;
+}
+
+.second {
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.second > div {
+  width: 50%;
+  padding: 10px 10px;
+  color: #fff;
+  /* border-bottom: 1px solid black; */
+}
+
+.second > div > h1 {
+  font-size: 70px;
+}
+
+@media (max-width: 767px) {
+  .attendence {
+    width: 100% !important;
+  }
+}
