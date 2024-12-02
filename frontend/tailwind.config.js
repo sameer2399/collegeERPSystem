@@ -12,7 +12,7 @@ module.exports = {
       lg: { min: "768px", max: "1023px" },
       // => @media (max-width: 1023px) { ... }
 
-      desktop: { min: "1024px", max: "1800px" },
+      desktop: { min: "1024px", max: "2000px" },
 
       mobile: { max: "767px" },
       // => @media (max-width: 767px) { ... }

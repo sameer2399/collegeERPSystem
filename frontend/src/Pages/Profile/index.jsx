@@ -9,6 +9,8 @@ export const Profile = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const userPhoto = user.photo.split("/").pop();
   return (
     <div className="container mx-auto my-5 p-5 h-auto">
       <Helmet>
@@ -27,7 +29,10 @@ export const Profile = () => {
             <div className="image overflow-hidden">
               <img
                 className="h-32 w-32 rounded-xl mx-auto"
-                src={`https://www.acharyainstitutes.in/${user.photo}`}
+                src={`https://content-ai.sgp1.digitaloceanspaces.com/USERS/PROFILE/${userPhoto.replace(
+                  ".jpg",
+                  ".jpeg"
+                )}`}
                 alt="userProfile"
               />
             </div>

@@ -3,25 +3,9 @@ import { Helmet } from "react-helmet";
 const Developers = () => {
   const developers = [
     {
-      name: "Praveen Kr. Singh",
-      designation: "SDE - I (MERN Stack)",
-      imgUrl: "https://avatars.githubusercontent.com/u/56352591?v=4",
-    },
-    {
       name: "Sameer Anand",
-      designation: "SDE- I @codingninjas",
+      designation: "Frontend Engineer @Mool Innovation Labs",
       imgUrl: "https://avatars.githubusercontent.com/u/89624003?v=4",
-    },
-    {
-      name: "Devanshu Kumar",
-      designation: "CIS at Wipro",
-      imgUrl: "https://i.ibb.co/J7mQK6N/FB-IMG-1049736743154020037.jpg",
-    },
-    {
-      name: "Mohit Kumar",
-      designation: "CEO at GB Road",
-      imgUrl:
-        "https://i.ibb.co/DK0fCDG/Whats-App-Image-2022-08-10-at-11-13-12-PM.jpg",
     },
   ];
 
@@ -39,16 +23,6 @@ const Developers = () => {
           <p className="text-gray-600 lg:w-8/12 lg:mx-auto dark:text-white">
             This project is developed by
             <a
-              href="https://github.com/spraveenofficial"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:text-blue-700"
-            >
-              {" "}
-              Praveen Kumar Singh{" "}
-            </a>
-            and{" "}
-            <a
               href="https://github.com/sameer2399"
               target="_blank"
               rel="noopener noreferrer"
@@ -57,11 +31,9 @@ const Developers = () => {
               {" "}
               Sameer Anand{" "}
             </a>
-            of AIGS, Bengaluru from department of Computer Application. Who are
-            working on this as a part of their final year project.
           </p>
         </div>
-        <div className="grid gap-12 items-center desktop:grid-cols-4 lg:grid-cols-2">
+        <div className="grid gap-12 items-center desktop:grid-cols-1 lg:grid-cols-1">
           {developers.map((item, index) => {
             return (
               <div key={index} className="space-y-4 text-center">

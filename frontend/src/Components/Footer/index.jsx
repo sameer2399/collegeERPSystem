@@ -30,7 +30,7 @@ export function Footer() {
           <Stack spacing={6}>
             <Box>
               <Text className="logo" fontWeight="extrabold" fontSize={"4xl"}>
-                Acharya ERP
+                College ERP
               </Text>
             </Box>
             <Text fontSize={"sm"}>© 2022. This is not official ERP. This is for education purpose only.</Text>

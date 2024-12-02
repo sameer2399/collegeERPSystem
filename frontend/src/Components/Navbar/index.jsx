@@ -85,6 +85,8 @@ const Navbar = () => {
 
   const getFirstName = (name) => name.split(" ")[0];
 
+  const userPhoto = user.photo.split("/").pop();
+
   return (
     <>
       <AnimatePresence>
@@ -103,7 +105,7 @@ const Navbar = () => {
                     onClick={pushToHome}
                     className="logo pointer text-3xl lg:text-2xl mobile:text-xl"
                   >
-                    Acharya
+                    College ERP
                   </h1>
                 </motion.div>
                 <motion.div className="navitems relative lg:gap-5 desktop:gap-7">
@@ -132,9 +134,13 @@ const Navbar = () => {
                         <span className="mr-2 ml-2 font-auto">
                           Hi, {getFirstName(user.student_name)}
                         </span>
+
                         <img
                           className="w-8 h-8 rounded-full"
-                          src={`https://www.acharyainstitutes.in/${user.photo}`}
+                          src={`https://content-ai.sgp1.digitaloceanspaces.com/USERS/PROFILE/${userPhoto.replace(
+                            ".jpg",
+                            ".jpeg"
+                          )}`}
                           alt="user photo"
                         />
                       </button>

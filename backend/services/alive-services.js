@@ -31,7 +31,7 @@ class Auth {
     const currentDate = new Date().toISOString().split("T")[0];
     console.log(currentDate);
     const response = await axios({
-      url: `https://alive-core-api.alive.university/api/v1/classes?date=2024-11-28`,
+      url: `https://alive-core-api.alive.university/api/v1/classes?date=2024-12-26`,
       method: "GET",
       headers: {
         Origin: "https://alive.university",
