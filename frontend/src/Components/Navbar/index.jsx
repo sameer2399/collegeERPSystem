@@ -85,7 +85,7 @@ const Navbar = () => {
 
   const getFirstName = (name) => name.split(" ")[0];
 
-  const userPhoto = user.photo.split("/").pop();
+  const userPhoto = user?.photo?.split("/")?.pop();
 
   return (
     <>
