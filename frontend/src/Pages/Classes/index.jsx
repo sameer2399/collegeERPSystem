@@ -9,13 +9,58 @@ const Classes = () => {
   const { loading, classes, error, success, message } = useSelector(
     (state) => state.classes
   );
-  const { onlineClasses, offlineClasses } = classes;
-  useEffect(() => {
-    if (!success) {
-      dispatch(fetchClasses());
-    }
-    window.scrollTo(0, 0);
-  }, []);
+  // const { onlineClasses, offlineClasses } = classes;
+
+  const currentDate = new Date().toISOString().split("T")[0];
+
+  const onlineClasses = [
+    {
+      selected_date: currentDate,
+      subject_name: "Cyber Crimes, Cyber Law and Intellectual Property",
+      interval: "2:10 PM-3:00 PM",
+    },
+    {
+      selected_date: currentDate,
+      subject_name: "Quantitative Techniques",
+      interval: "3:00 PM-3:50 PM",
+    },
+
+    {
+      selected_date: currentDate,
+      subject_name: "Softskill Training",
+      interval: "3:50 PM-4:40 PM",
+    },
+  ];
+
+  const offlineClasses = [
+    {
+      selected_date: currentDate,
+      subject_name: "DATA ANALYTICS LAB",
+      interval: "9:00 AM-9:50 AM",
+    },
+    {
+      selected_date: currentDate,
+      subject_name: "Artificial Intelligence",
+      interval: "9:50 AM-10:40 AM",
+    },
+    {
+      selected_date: currentDate,
+      subject_name: "Web Programming",
+      interval: "11:00 AM-11:50 AM",
+    },
+    {
+      selected_date: currentDate,
+      subject_name: "Data Mining",
+      interval: "11:50 AM-12:40 PM",
+    },
+  ];
+
+  // useEffect(() => {
+  //   if (!success) {
+  //     dispatch(fetchClasses());
+  //   }
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   if (loading) {
     return (
@@ -69,14 +114,16 @@ const Classes = () => {
             <Text className="font-bold text-xl">No Online Classes Today.</Text>
           </Box>
         ) : (
-          onlineClasses?.map((eachClasses) => (
-            <ClassCard
-              bg="#1F2889"
-              date={eachClasses.selected_date}
-              subjectName={eachClasses.subject_name}
-              time={eachClasses.interval}
-            />
-          ))
+          <Box className="grid grid-cols-4 auto-cols-max gap-5 mobile:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+            {onlineClasses?.map((eachClasses) => (
+              <ClassCard
+                bg="#1F2889"
+                date={eachClasses.selected_date}
+                subjectName={eachClasses.subject_name}
+                time={eachClasses.interval}
+              />
+            ))}
+          </Box>
         )}
       </Box>
     </Box>
